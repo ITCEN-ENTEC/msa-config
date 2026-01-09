@@ -22,7 +22,7 @@ spring:
     gateway:
       routes:
         - id: lotuser-service
-          uri: lb://LOTUSER-SERVICE
+          uri: lb://lotuser-service
           predicates:
             - Path=/lotuser-service/**
           filters:
@@ -36,7 +36,7 @@ spring:
             - RemoveRequestHeader=Cookie
             - RewritePath=/user-service/(?<segment>.*), /${segment}
         - id: game-mng-service
-          uri: lb://GAME-MNG-SERVICE
+          uri: lb://game-mng-service
           predicates:
             - Path=/game-mng-service/**
           filters:
