@@ -27,7 +27,7 @@ spring:
             - Path=/lotuser-service/**
           filters:
             - RemoveRequestHeader=Cookie
-            - CacheRequestBody=String
+            - CacheRequestBody=java.lang.String
             - RewritePath=/lotuser-service/(?<segment>.*), /${segment}
         - id: user-service
           uri: lb://USER-SERVICE
