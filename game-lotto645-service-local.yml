@@ -66,6 +66,9 @@ resilience4j:
       reqMngTcktSusValidateApiCircuitBreaker:
         baseConfig: default
 
+cors:
+  enabled: false
+  
 eureka:
   instance:
     preferIpAddress: true
