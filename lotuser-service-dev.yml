@@ -125,6 +125,4 @@ messages:
 #      defaultZone: http://${spring.security.user.name}:${spring.security.user.password}@${eureka.instance.hostname}/eureka/
 
 cors:
-  allowed-origins:
-    - https://cenlots-ui.cloit.dev
-    - https://localhost:3000
+  enabled: true
