@@ -42,3 +42,8 @@ api:
 spring:
   web:
     locale: en
+
+cors:
+  allowed-origins:
+    - https://cenlots-ui.cloit.dev
+    - https://localhost:3000
