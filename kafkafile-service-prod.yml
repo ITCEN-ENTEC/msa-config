@@ -58,6 +58,9 @@ management:
     db:
       enabled: false
 
+rocksdb:
+  base-path: /home/rocksdb/databases
+
 eureka:
   instance:
     prefer-ip-address: true
