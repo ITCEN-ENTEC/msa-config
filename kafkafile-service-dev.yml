@@ -66,6 +66,8 @@ management:
     db:
       enabled: false
 
+rocksdb:
+  base-path: /home/rocksdb/databases
 #eureka:
 #  client:
 #    register-with-eureka: false  # 자신을 Eureka에 등록하지 않음
