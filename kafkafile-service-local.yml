@@ -86,3 +86,6 @@ management:
       exposure:
         include: health,info,beans,conditions
         exclude: threaddump,heapdump
+
+rocksdb:
+  base-path: /home/rocksdb/databases
