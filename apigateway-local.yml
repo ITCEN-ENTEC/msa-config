@@ -41,7 +41,6 @@ spring:
           predicates:
             - Path=/lotuser-service/**
           filters:
-            - RemoveRequestHeader=Cookie
             - name: CacheRequestBody
               args:
                 bodyClass: java.lang.String
