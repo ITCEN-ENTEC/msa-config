@@ -31,13 +31,13 @@ datasource:
     url: jdbc:log4jdbc:postgresql://10.10.5.183:5432/cenlotsdb01?charSet=UTF-8&prepareThreshold=1&serverTimezone=Asia/Seoul
     username: cenadm01
     password: cenlotaws123!
-    driverClassName: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
 
   db2:
     url: jdbc:log4jdbc:postgresql://10.10.5.183:5432/cenlotsdb02?charSet=UTF-8&prepareThreshold=1&serverTimezone=Asia/Seoul
     username: cenadm02
     password: cenlotaws123!
-    driverClassName: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
 
 resilience4j:
   circuitbreaker:
