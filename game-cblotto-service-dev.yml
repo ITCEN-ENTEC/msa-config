@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: game-powerball-service
+    name: game-cblotto-service
   main:
     allow-bean-definition-overriding: true
   profiles:
@@ -22,9 +22,9 @@ spring:
     host: dev-elasticache-replication-group.ikmdkh.ng.0001.apn2.cache.amazonaws.com
 
 jdbc:
-  url: jdbc:log4jdbc:postgresql://10.10.5.183:5432/cenlotsdb01?charSet=UTF-8&prepareThreshold=1&serverTimezone=Asia/Seoul
-  username: cenadm01
-  password: cenlotaws123!
+  url: jdbc:log4jdbc:postgresql://db-cls-stg-sales.c3uywyy2okpb.ap-northeast-2.rds.amazonaws.com:5432/cenlotsdb01?charSet=UTF-8&prepareThreshold=1&serverTimezone=Asia/Seoul
+  username: cenapp01
+  password: cenlotapp123!
   driverClassName: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
 
 resilience4j:
