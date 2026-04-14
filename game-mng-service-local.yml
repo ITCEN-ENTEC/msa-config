@@ -29,6 +29,7 @@ spring:
         min-idle: 2
     port: 6666
     host: localhost
+    ssl: true
 
 jdbc:
   url: jdbc:log4jdbc:postgresql://localhost:5556/cenlotsdb02?charSet=UTF-8&prepareThreshold=1&serverTimezone=Asia/Seoul
