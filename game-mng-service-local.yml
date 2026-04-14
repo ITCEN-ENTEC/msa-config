@@ -30,8 +30,8 @@ spring:
     # port: 6666
     # host: localhost
     # ssl: true
-        port: 6379
-        host: master.redis-cls-stg-sales-as1.txsqxp.apn2.cache.amazonaws.com
+    port: 6379
+    host: master.redis-cls-stg-sales-as1.txsqxp.apn2.cache.amazonaws.com
 
 jdbc:
   url: jdbc:log4jdbc:postgresql://localhost:5556/cenlotsdb02?charSet=UTF-8&prepareThreshold=1&serverTimezone=Asia/Seoul
