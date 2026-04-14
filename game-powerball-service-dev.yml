@@ -22,6 +22,8 @@ spring:
     port: 6379
     #host: dev-elasticache-replication-group.ikmdkh.ng.0001.apn2.cache.amazonaws.com
     host: master.redis-cls-stg-sales-as1.txsqxp.apn2.cache.amazonaws.com
+    #ssl:true 20260414에 추가함
+    ssl: true
 
 jdbc:
   url: jdbc:log4jdbc:postgresql://db-cls-stg-sales.c3uywyy2okpb.ap-northeast-2.rds.amazonaws.com:5432/cenlotsdb01?charSet=UTF-8&prepareThreshold=1&serverTimezone=Asia/Seoul
