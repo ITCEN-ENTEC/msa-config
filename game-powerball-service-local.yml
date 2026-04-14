@@ -30,6 +30,8 @@ spring:
         min-idle: 2
     port: 6666
     host: localhost
+    #ssl:true 20260414에 추가함
+    ssl: true
 
 jdbc:
   url: jdbc:log4jdbc:postgresql://localhost:5555/cenlotsdb01?charSet=UTF-8&prepareThreshold=1&serverTimezone=Asia/Seoul
