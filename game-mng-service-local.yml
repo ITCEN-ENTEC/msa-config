@@ -28,7 +28,8 @@ spring:
         max-idle: 10
         min-idle: 2
     port: 6666
-    host: localhost
+    #host: localhost
+    host: master.redis-cls-stg-sales-as1.txsqxp.apn2.cache.amazonaws.com
     ssl: true #20260414 추가
 
 jdbc:
