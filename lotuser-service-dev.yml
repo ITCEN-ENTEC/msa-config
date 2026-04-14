@@ -20,6 +20,8 @@ spring:
     port: 6379
     #host: dev-elasticache-replication-group.ikmdkh.ng.0001.apn2.cache.amazonaws.com
     host: master.redis-cls-stg-sales-as1.txsqxp.apn2.cache.amazonaws.com
+    #ssl:true 20260414에 추가함
+    ssl: true
 
 #  cloud:
 #    config:
