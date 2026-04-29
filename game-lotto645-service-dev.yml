@@ -11,7 +11,9 @@ spring:
       on-profile: dev
   cloud:
     discovery:
-      enabled: false      
+      enabled: false  
+    loadbalancer:
+      enabled: false
   redis:
     lettuce:
       pool:
